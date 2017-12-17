@@ -30,9 +30,11 @@ h1 {
 
 - Create an empty `src/client/` folder.
 
+- Create an empty `src/server/` folder.
+
 - Create an empty `src/shared/` folder.
 
-This folder is where we put *isomorphic / universal* JavaScript code – files that are used by both the client and the server. A great use case of shared code is *routes*, as you will see later in this tutorial when we'll make an asynchronous call. Here we simply have some configuration constants as an example for now.
+The `src/shared/` folder is where we put *isomorphic / universal* JavaScript code – files that are used by both the client and the server. A great use case of shared code is *routes*, as you will see later in this tutorial when we'll make an asynchronous call. Here we simply have some configuration constants as an example for now.
 
 - Create a `src/shared/config.js` file, containing:
 
